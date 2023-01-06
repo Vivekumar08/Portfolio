@@ -13,12 +13,13 @@ function App() {
   return (
     <HelmetProvider context={helmetContext}>
       <Router>
-        <Socialicons />
         <Navigation />
         <Routes>
           <Route element={<Home />} path="/" exact />
           <Route element={<NotFound />} path="*" />
         </Routes >
+        <Socialicons />
+
       </Router>
     </HelmetProvider>
   );
