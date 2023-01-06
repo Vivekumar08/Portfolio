@@ -41,7 +41,10 @@ function Home() {
                 Linear Algebra, and Complex Analysis.
               </p>
               <div className="flex justify-start gap-40 pb-5 mt-2 pt-4  font-marcellus ">
-                <Link to="/portfolio" className="port_btn   p-2 px-4 rounded-md">
+                <Link
+                  to="/portfolio"
+                  className="port_btn   p-2 px-4 rounded-md"
+                >
                   <div id="button_p" className=" ">
                     My Portfolio
                   </div>
@@ -64,6 +67,7 @@ function Home() {
           className="rounded-xl   md:h-full md:w-[840px] ml-5"
         />
       </div>
+      <div className="blob"></div>
     </div>
   );
 }
