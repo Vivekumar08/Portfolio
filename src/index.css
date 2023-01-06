@@ -12,8 +12,6 @@
 
 body {
   margin: 0;
-  border:#e4e4e4;
-  border-color:#e4e4e4;
   background-color: var(--bg-color);
   color: var(--text-color);
   font-family: 'Chivo Mono', 'monospace';
@@ -21,13 +19,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.white-content {
-  background-color: #b2d8d8;
-  border: #3C4048;
-  border-color: #3C4048;
-  color: #3C4048;
-  fill:#3C4048;
-}
+
 
 @tailwind base;
 @tailwind components;

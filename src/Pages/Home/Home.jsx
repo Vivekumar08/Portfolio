@@ -51,16 +51,18 @@ function Home() {
                 and a good hand with a probability distribution and numbers,
                 Linear Algebra, and Complex Analysis.
               </p>
-              <div className="flex justify-start gap-40 pb-5 mt-2 pt-4  font-marcellus ">
-                <Link to="/portfolio" className="w-full   p-2 px-4 rounded-md">
-                  {/* <div id="button_p" className=" "> */}
+              <div className="flex justify-start gap-40 w-full pb-5 mt-2 pt-4  font-marcellus ">
+                <Link to="/portfolio" className="btn-neon rounded-md  p-2 px-6 ">
                   My Portfolio
-                  {/* </div> */}
+                  <svg height="50" width="180">
+                    <polyline points="0,0 180,0 180,50 0,50 0,00"></polyline>
+                  </svg>
                 </Link>
-                <Link to="/contact" className="p-2  px-4 rounded-md">
-                  {/* <div id="button_h" className=""> */}
+                <Link to="/contact" className=" p-2 btn-neon  px-6 rounded-md">
                   Contact Me
-                  {/* </div> */}
+                  <svg height="50" width="180">
+                    <polyline points="0,0 180,0 180,50 0,50 0,00"></polyline>
+                  </svg>
                 </Link>
               </div>
             </div>
