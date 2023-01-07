@@ -1,3 +1,4 @@
+const plugin = require('tailwindcss/plugin')
 module.exports = {
   mode: 'jit',
   darkMode: 'className',
@@ -15,5 +16,10 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    // require('@tailwindcss/typography'),
+    require('@tailwindcss/forms'),
+    // require('@tailwindcss/line-clamp'),
+    // require('@tailwindcss/aspect-ratio'),
+  ],
 }
