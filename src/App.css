@@ -4,15 +4,35 @@
     border-color: #3C4048;
     color: #3C4048;
     fill: #3C4048;
-    border-color: #53d8d8;
-    stroke: #53d8d8;
+    filter: none;
+    border-color: #53d8d8 !important;
+    stroke: #53d8d8 !important;
 }
 
-.blob {
-    width: 1000px;
-    height: 1000px;
-    background-size: cover;
-    background-repeat: no-repeat;
+.page-enter {
+    transform: translateY(100%);
+}
+
+.page-enter-active {
+    transform: translateY(0%);
+    transition: all 400ms ease-out;
+}
+
+.page-exit {
+    transform: translateY(0%);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.page-exit-active {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    transform: translateY(-130%);
+    transition: all 400ms ease-out;
 }
 
 .btn-neon:hover polyline {

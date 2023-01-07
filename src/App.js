@@ -1,25 +1,33 @@
 import './App.css';
-
-import Home from './Pages/Home/Home';
 import Navigation from './Components/Navigation';
 import { HelmetProvider } from 'react-helmet-async'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { BrowserRouter as Router, useLocation } from 'react-router-dom'
 import { Socialicons } from './Components/SocialLinks';
-import NotFound from './Pages/NotFound';
-
+import { useEffect } from 'react';
+import withRouter from "./Context/withRouter"
+import AppRoutes from './AppRoutes';
 
 function App() {
   const helmetContext = {}
+  function ScrollToTop(props) {
+    const { pathname } = useLocation();
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, [pathname]);
+
+    return <>{props.children}</>;
+  };
+
+  const ScrollToTopMount = withRouter(ScrollToTop)
+
   return (
     <HelmetProvider context={helmetContext}>
-      <Router>
+      <Router >
         <Navigation />
-        <Routes>
-          <Route element={<Home />} path="/" exact />
-          <Route element={<NotFound />} path="*" />
-        </Routes >
-        <Socialicons />
-
+        <ScrollToTopMount>
+          <AppRoutes />
+          <Socialicons />
+        </ScrollToTopMount>
       </Router>
     </HelmetProvider>
   );
