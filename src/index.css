@@ -14,6 +14,8 @@ body {
   margin: 0;
   background-color: var(--bg-color);
   color: var(--text-color);
+  border-color: #b2d8d8;
+  stroke: #b2d8d8;
   font-family: 'Chivo Mono', 'monospace';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

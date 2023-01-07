@@ -1,15 +1,15 @@
 import React from "react";
 import "./social.css";
-import {
-  FaGithub,
-  FaTwitter,
-  FaFacebookF,
-  FaLinkedin,
-  FaYoutube,
-  FaTwitch,
-} from "react-icons/fa";
-import {SiGmail, SiWhatsapp} from 'react-icons/si'
 import { socialprofils } from "../Pages/Content";
+import {
+  faGithub,
+  faLinkedin,
+  faTwitter,
+  faWhatsapp,
+  faYoutube,
+} from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 export const Socialicons = (params) => {
   return (
@@ -18,56 +18,41 @@ export const Socialicons = (params) => {
         {socialprofils.twitter && (
           <li>
             <a href={socialprofils.twitter}>
-              <FaTwitter />
+              <FontAwesomeIcon icon={faTwitter} />
             </a>
           </li>
         )}
         {socialprofils.github && (
           <li>
             <a href={socialprofils.github}>
-              <FaGithub />
-            </a>
-          </li>
-        )}
-        {socialprofils.facebook && (
-          <li>
-            <a href={socialprofils.facebook}>
-              <FaFacebookF />
+              <FontAwesomeIcon icon={faGithub} />
             </a>
           </li>
         )}
         {socialprofils.linkedin && (
           <li>
             <a href={socialprofils.linkedin}>
-              <FaLinkedin />
+              <FontAwesomeIcon icon={faLinkedin} />
             </a>
           </li>
         )}
         {socialprofils.mail && (
           <li>
-            <a href={`mailto:${socialprofils.mail}`}>
-              <SiGmail />
-            </a>
+            <a href={`mailto:${socialprofils.mail}`}>{/* <SiGmail /> */}</a>
+            <FontAwesomeIcon icon={faEnvelope} />
           </li>
         )}
         {socialprofils.whatsapp && (
           <li>
             <a href={`tel:${socialprofils.whatsapp}`}>
-              <SiWhatsapp />
+              <FontAwesomeIcon icon={faWhatsapp} />
             </a>
           </li>
         )}
         {socialprofils.youtube && (
           <li>
             <a href={socialprofils.youtube}>
-              <FaYoutube />
-            </a>
-          </li>
-        )}
-        {socialprofils.twitch && (
-          <li>
-            <a href={socialprofils.twitch}>
-              <FaTwitch />
+              <FontAwesomeIcon icon={faYoutube} />
             </a>
           </li>
         )}
