@@ -22,7 +22,7 @@ function App() {
 
   return (
     <HelmetProvider context={helmetContext}>
-      <Router basename='/Portfolio'>
+      <Router >
         <Navigation />
         <ScrollToTopMount>
           <AppRoutes />
