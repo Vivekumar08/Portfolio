@@ -14,7 +14,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 export const Socialicons = (params) => {
   return (
     <div className="stick_follow_icon flex  ">
-      <ul className="list-none flex flex-row md:flex-col">
+      <ul className="list-none flex  md:flex-col">
         {socialprofils.twitter && (
           <li>
             <a href={socialprofils.twitter}>
