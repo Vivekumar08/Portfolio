@@ -52,8 +52,8 @@ function Home() {
                 Linear Algebra, and Complex Analysis.
               </p>
               <div className="flex md:justify-start gap-12 p-4 w-full pb-5 mt-2 pt-4  font-marcellus ">
-                <Buttons7 title={"My Portfolio"} href="/portfolio"/>
-                <Buttons7 title={"Contact Me"} href="/contact"/>
+                <Buttons7 title={"My Portfolio"} to="/portfolio"/>
+                <Buttons7 title={"Contact Me"} to="/contact"/>
               </div>
             </div>
           </div>

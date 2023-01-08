@@ -15,7 +15,7 @@ const Buttons = (props) => {
   if (props.to) {
     return (
       <div className="frame ">
-        <Link to={props.path} className="custom-btn  btn-3">
+        <Link to={props.to} className="custom-btn  btn-3">
           <span>{props.title}</span>
         </Link>
       </div>
@@ -48,7 +48,7 @@ export const Buttons7 = (props) => {
   if (props.to) {
     return (
       <div className="frame ">
-        <Link to={props.path} className="custom-btn  btn-7">
+        <Link to={props.to} className="custom-btn  btn-7">
           <span>{props.title}</span>
         </Link>
       </div>
