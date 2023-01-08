@@ -128,7 +128,7 @@ const Contact = () => {
                   id="name"
                   name="name"
                   type="text"
-                  placeholder="Vivek Kumar"
+                  placeholder="e.g- Vivek Kumar"
                   className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 text-gray-800 focus:ring-blue-400 dark:bg-gray-800"
                   spellCheck="false"
                   data-ms-editor="true"
@@ -143,7 +143,7 @@ const Contact = () => {
                   id="email"
                   name="email"
                   type="email"
-                  placeholder="Vivek@gmail.com"
+                  placeholder="e.g- Vivek@gmail.com"
                   className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 text-gray-800 focus:ring-blue-400 dark:bg-gray-800"
                   required
                   value={formData.email || ""}
@@ -155,6 +155,7 @@ const Contact = () => {
                 <textarea
                   rows="3"
                   name="message"
+                  placeholder="Enter your message here ..."
                   className="block w-full rounded-md focus:ring focus:ring-opacity-75 text-gray-800 focus:ring-blue-400 dark:bg-gray-800"
                   spellCheck="false"
                   data-ms-editor="true"
