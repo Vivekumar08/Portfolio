@@ -43,7 +43,7 @@ function Home() {
                   }}
                 />
               </h1>
-              <p className="mb-2 px-2 w-full font-marcellus mt-4 pt-4 md:pr-2 md:px-0 md:py-2 ">
+              <p className="mb-2 px-2 w-full md:w-[480px] font-marcellus mt-4 pt-4 md:pr-2 md:px-0 md:py-2 ">
                 Effective team player with excellent analytical skills, and
                 training potential. Problem-solving and communication skills.
                 Work Experience with Python, MERN and MATLAB. Familiar with
