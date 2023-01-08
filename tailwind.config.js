@@ -11,7 +11,9 @@ module.exports = {
         Chivo: ['Chivo Mono', "monospace"],
         papyrus: ['Papyrus', 'sans-serif'],
         satisfy: ['Satisfy', 'cursive'],
-        marcellus: ['Marcellus', 'serif']
+        marcellus: ['Marcellus', 'serif'],
+        Monoton :['Electrolize', 'sans-serif'],
+        Lobster :['Lobster Two', 'cursive']
 
       },
     },

@@ -22,13 +22,13 @@ function Home() {
         variants={boxVariant}
         initial="hidden"
         animate="visible"
-        className="flex md:flex-row w-full md:w-auto md:mx-12 flex-col-reverse gap-5 md:gap-0 items-center md:my-12 align-middle "
+        className="flex md:flex-row w-full  md:w-auto md:mx-12 flex-col-reverse gap-5 md:gap-0 items-center md:my-12 align-middle "
       >
-        <div className="flex justify-center mx-5  text-justify">
+        <div className="flex justify-center mx-4 text-justify">
           <div className="justify-items-center  text-justify ">
             <div className="intro  text-justify">
-              <h2 className="mb-1 px-4 md:p-0 text-4xl">{introdata.title}</h2>
-              <h1 className=" mb-2 px-4 md:p-0 font-marcellus text-4xl">
+              <h2 className="mb-1 px-2 md:p-0 text-4xl font-marcellus">{introdata.title}</h2>
+              <h1 className=" mb-2 px-2 md:p-0 font-marcellus text-4xl">
                 <Typewriter
                   options={{
                     strings: [
@@ -43,7 +43,7 @@ function Home() {
                   }}
                 />
               </h1>
-              <p className="mb-2 px-4 font-Chivo mt-4 pt-4 md:pr-2 md:px-0 md:py-2 w-[480px]">
+              <p className="mb-2 px-2 w-full font-marcellus mt-4 pt-4 md:pr-2 md:px-0 md:py-2 ">
                 Effective team player with excellent analytical skills, and
                 training potential. Problem-solving and communication skills.
                 Work Experience with Python, MERN and MATLAB. Familiar with
