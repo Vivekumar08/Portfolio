@@ -7,7 +7,7 @@ function Navigation() {
     <nav className="bg-transparent  flex w-full justify-between items-center pt-2 px-5 ">
       <div>
         <span className="md:text-[25px] text-[20px]">
-          <Link to="/">Vykriea </Link>
+          <Link to="/">Vivek </Link>
         </span>
       </div>
       <div className="flex items-center gap-5 text-[14px] md:text-base justify-between">
