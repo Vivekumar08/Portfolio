@@ -73,62 +73,74 @@ const services = [{
 
 const dataportfolio = [{
         img: "https://picsum.photos/400/?grayscale",
+        title:"MDZ",
         desctiption: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
         img: "https://picsum.photos/400/800/?grayscale",
+        title:"MDZ",
         desctiption: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
         img: "https://picsum.photos/400/?grayscale",
+        title:"MDZ",
         desctiption: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
         img: "https://picsum.photos/400/600/?grayscale",
+        title:"MDZ",
         desctiption: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
         img: "https://picsum.photos/400/300/?grayscale",
+        title:"MDZ",
         desctiption: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
         img: "https://picsum.photos/400/700/?grayscale",
+        title:"MDZ",
         desctiption: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
-
+    
     {
         img: "https://picsum.photos/400/600/?grayscale",
+        title:"MDZ",
         desctiption: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
         img: "https://picsum.photos/400/300/?grayscale",
+        title:"MDZ",
         desctiption: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
         img: "https://picsum.photos/400/?grayscale",
+        title:"MDZ",
         desctiption: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
         img: "https://picsum.photos/400/550/?grayscale",
+        title:"MDZ",
         desctiption: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
         img: "https://picsum.photos/400/?grayscale",
+        title:"MDZ",
         desctiption: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
         img: "https://picsum.photos/400/700/?grayscale",
+        title:"MDZ",
         desctiption: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },

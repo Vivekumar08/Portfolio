@@ -26,7 +26,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setFormdata({ loading: true });
-    
+
     const templateParams = {
       from_name: formData.email,
       user_name: formData.name,
@@ -60,7 +60,7 @@ const Contact = () => {
             variant: "danger",
             show: true,
           });
-          window.alert({message:formData.alertmessage});
+          window.alert({ message: formData.alertmessage });
         }
       );
   };
@@ -88,8 +88,10 @@ const Contact = () => {
           <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
             <div className="py-6 md:py-0 md:px-6">
               <h1 className="text-4xl font-bold">Get in touch</h1>
-              <p className="pt-2 pb-4">
-                Fill in the form to start a conversation
+              <p className="pt-2 pb-4 text-justify">
+                Whether you want to get in touch, talk about a project
+                collaboration, or just say hi, I'd love to hear from you. Simply
+                fill the from to start a conversation and send me an email.
               </p>
               <div className="space-y-4">
                 <p className="flex items-center">
