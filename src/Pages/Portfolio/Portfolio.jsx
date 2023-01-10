@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleExclamation } from "@fortawesome/free-solid-svg-icons";
 import { dataportfolio } from "../Content";
+import { Buttons8 } from "../../Components/Buttons/Buttons";
 
 const Portfolio = () => {
   const boxVariant = {
@@ -30,18 +31,24 @@ const Portfolio = () => {
           <div className="grid md:grid-cols-3 gap-5 ml-auto mr-auto">
             {dataportfolio.map((name, index) => {
               return (
-                <div key={index} className="flex mx-5 h-[280px] flex-col">
+                <div
+                  key={index}
+                  className="flex mx-5 content rounded-lg h-[280px] md:h-[330px] flex-col"
+                >
                   <div className="relative overflow-hidden rounded-md bg-no-repeat bg-cover max-w-xs">
                     <img
                       //   src="https://mdbcdn.b-cdn.net/img/new/fluid/city/113.webp"
                       src={name.img}
                       className="max-w-xs hover:scale-110  transition duration-300 ease-in-out"
-                      alt={name.desctiption}
+                      alt={name.title}
                     />
                   </div>
-                  <div className="content">
-                    <p>{name.title}</p>
-                    <a href={name.link}>view project</a>
+                  <div className="mt-2 rounded-t-none rounded-b-lg flex my-3">
+                    <div className="flex flex-col text-black ml-2 ">
+                      <h2 className="text-lg">{name.title}</h2>
+                      <p className="text-sm ">{name.skills}</p>
+                    </div>
+                    <Buttons8 href={name.link} title={"view project"}  />
                   </div>
                 </div>
               );

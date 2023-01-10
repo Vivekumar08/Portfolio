@@ -22,7 +22,7 @@ function Home() {
         variants={boxVariant}
         initial="hidden"
         animate="visible"
-        className="flex md:flex-row w-full  md:w-auto md:mx-12 flex-col-reverse gap-5 md:gap-0 items-center md:my-12 align-middle "
+        className="flex md:flex-row w-full  mt-12 md:w-auto md:mx-12 flex-col-reverse gap-5 md:gap-0 items-center md:my-12 align-middle "
       >
         <div className="flex justify-center mx-4 text-justify">
           <div className="justify-items-center  text-justify ">
@@ -43,7 +43,7 @@ function Home() {
                   }}
                 />
               </h1>
-              <p className="mb-2 px-2 w-full md:w-[480px] font-marcellus mt-4 pt-4 md:pr-2 md:px-0 md:py-2 ">
+              <p className="mb-2 px-2 w-full md:w-[580px] font-marcellus mt-4 pt-4 md:pr-2 md:px-0 md:py-2 ">
                 Effective team player with excellent analytical skills, and
                 training potential. Problem-solving and communication skills.
                 Work Experience with Python, MERN and MATLAB. Familiar with
