@@ -7,6 +7,7 @@ import { CSSTransition, TransitionGroup } from "react-transition-group";
 import { Socialicons } from "./Components/SocialLinks";
 import withRouter from "./Context/withRouter";
 import { Route, Routes } from "react-router-dom";
+import AboutMe from "./Pages/About/AboutMe";
 
 const AnimatedSwitch = withRouter(({ router }) => (
   <TransitionGroup>
@@ -23,6 +24,7 @@ const AnimatedSwitch = withRouter(({ router }) => (
         <Route element={<Home />} path="/" exact />
         <Route element={<Portfolio />} path="/portfolio" />
         <Route element={<Contact />} path="/contact" />
+        <Route element={<AboutMe />} path="/About Me" />
         <Route element={<NotFound />} path="*" />
       </Routes>
     </CSSTransition>

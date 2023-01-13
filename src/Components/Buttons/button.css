@@ -52,8 +52,9 @@
     position: absolute;
     content: "";
     right: 0;
+    background: #2ca0a8;
     top: 0;
-    background: rgb(0, 164, 189);
+    /* background: rgb(8, 188, 216); */
     transition: all 0.3s ease;
 }
 
@@ -64,7 +65,7 @@
 
 .btn-3:after {
     width: 0%;
-    height: 2px;
+    height: 3px;
 }
 
 .btn-3:hover {
@@ -90,7 +91,8 @@
     content: "";
     left: 0;
     bottom: 0;
-    background: #00818A;
+    background: rgb(8, 188, 216);
+    /* background: #227980; */
     transition: all 0.3s ease;
 }
 

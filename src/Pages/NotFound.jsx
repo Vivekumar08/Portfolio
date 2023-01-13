@@ -24,7 +24,7 @@ const NotFound = () => {
       ref={ref}
       animate={control}
       exit={{ x: window.innerWidth, transition: { duration: 0.01 } }}
-      className="flex items-center h-screen p-16 dark:bg-gray-900 dark:text-gray-100"
+      className="flex items-center h-fit p-16 dark:bg-gray-900 dark:text-gray-100"
     >
       <div className="container flex flex-col items-center justify-center px-5 mx-auto my-8">
         <div className="max-w-md text-center">

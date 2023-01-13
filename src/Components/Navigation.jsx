@@ -1,12 +1,12 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 function Navigation() {
   return (
-    <nav className="bg-transparent  flex w-full justify-between items-center pt-2 px-5 ">
+    <nav className="bg-transparent  sticky top-0 z-30  flex w-full justify-between items-center pt-2 px-5 ">
       <div>
-        <span className="md:text-[32px] text-[24px]">
-          <NavLink to="/">Vivek </NavLink>
+        <span className="md:text-[32px] uppercase text-[24px]">
+          <Link to="/">Vivek </Link>
         </span>
       </div>
       <div className="flex items-center font-bold md:gap-5 text-[12px]  md:text-[#3d3f44] md:text-base space-x-1 md:justify-between">

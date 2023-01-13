@@ -16,7 +16,7 @@ const introdata = {
 
 const dataabout = {
     title: "A bit about myself",
-    aboutme: "I’m Vivek Kumar data scientist _ Full stack devloper,currently Pursuing B. Tech [IT and MI] with a minor in Management from Cluster Innovation Centre, University of Delhi. Effective team player with excellent analytical skills, and training potential. Problem-solving and communication skills. Work Experience with Python, MERN and MATLAB. Familiar with statistical concepts such as probability and hypothesis testing and a good hand with a probability distribution and numbers, Linear Algebra, and Complex Analysis.",
+    aboutme: "I’m Vivek Kumar data scientist, Full stack devloper, & currently Pursuing B. Tech [IT and MI] with a minor in Management from Cluster Innovation Centre, University of Delhi. Effective team player with excellent analytical skills, and training potential. Problem-solving and communication skills. Work Experience with Python, MERN and MATLAB. Familiar with statistical concepts such as probability and hypothesis testing and a good hand with a probability distribution and numbers, Linear Algebra, and Complex Analysis.",
 };
 const worktimeline = [{
         jobtitle: "Designer of week",
@@ -37,23 +37,28 @@ const worktimeline = [{
 
 const skills = [{
         name: "Python",
-        value: 90,
+        value: "90%",
+        level: 90,
     },
     {
         name: "Djano",
-        value: 85,
+        value: "85%",
+        level: 85,
     },
     {
         name: "Javascript",
-        value: 80,
+        level: 80,
+        value: "80%",
     },
     {
         name: "MERN",
-        value: 85,
+        level: 85,
+        value: "85%",
     },
     {
         name: "C/C++",
-        value: 90,
+        level: 90,
+        value: "90%",
     },
 ];
 

@@ -44,8 +44,8 @@ const Portfolio = () => {
                     />
                   </div>
                   <div className="mt-2 rounded-t-none rounded-b-lg flex my-3">
-                    <div className="flex flex-col text-black ml-2 ">
-                      <h2 className="text-lg">{name.title}</h2>
+                    <div className="flex flex-col text-[#494545] ml-2 ">
+                      <h2 className="text-lg font-marcellus font-semibold">{name.title}</h2>
                       <p className="text-sm ">{name.skills}</p>
                     </div>
                     <Buttons8 href={name.link} title={"view project"}  />
@@ -60,7 +60,7 @@ const Portfolio = () => {
                 className="w-5 h-5 mr-2  sm:mr-6"
                 icon={faCircleExclamation}
               />
-              The function of this page is not in use!!!
+              Projects haven't uploaded yet!!!
             </h1>
             <h1 className="flex mx-20 text-red-500 text-lg  items-center">
               Try Again Later
