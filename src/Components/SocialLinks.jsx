@@ -38,8 +38,9 @@ export const Socialicons = (params) => {
         )}
         {socialprofils.mail && (
           <li>
-            <a href={`mailto:${socialprofils.mail}`}>{/* <SiGmail /> */}</a>
-            <FontAwesomeIcon icon={faEnvelope} />
+            <a href={`mailto:${socialprofils.mail}`}>
+              <FontAwesomeIcon icon={faEnvelope} />
+            </a>
           </li>
         )}
         {socialprofils.whatsapp && (
