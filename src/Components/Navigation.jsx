@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 
 function Navigation() {
   return (
-    <nav className="bg-transparent  sticky top-0 z-30  flex w-full justify-between items-center pt-2 px-5 ">
+    <nav className="bg-transparent    flex w-full justify-between items-center pt-2 px-5 ">
       <div>
         <span className="md:text-[32px] uppercase text-[24px]">
           <Link to="/">Vivek </Link>
