@@ -21,6 +21,7 @@ const Contact = () => {
     show: false,
     alertmessage: "",
     variant: "",
+    Sent: false,
   });
 
   const handleSubmit = (e) => {
@@ -49,6 +50,7 @@ const Contact = () => {
             alertmessage: "SUCCESS! ,Thank you for your messege",
             variant: "success",
             show: true,
+            Sent: true,
           });
           window.alert(formData.alertmessage);
         },
@@ -174,6 +176,18 @@ const Contact = () => {
                 <div className={formData.loading ? "lds-facebook" : "d-none"}>
                   <div></div>
                   <div></div>
+                  <div></div>
+                </div>
+              </div>
+              <div
+                className={
+                  formData.Sent
+                    ? "flex flex-row my-3 justify-center md:text-lg text-sm font-satisfy items-center"
+                    : "d-none"
+                }
+              >
+                <span className="capitalize">Thank You for your message</span>
+                <div className="lds-heart">
                   <div></div>
                 </div>
               </div>
