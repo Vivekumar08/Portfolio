@@ -21,7 +21,7 @@ const Contact = () => {
     show: false,
     alertmessage: "",
     variant: "",
-    Sent: false,
+    sent: false,
   });
 
   const handleSubmit = (e) => {
@@ -50,7 +50,7 @@ const Contact = () => {
             alertmessage: "SUCCESS! ,Thank you for your messege",
             variant: "success",
             show: true,
-            Sent: true,
+            sent: true,
           });
           window.alert(formData.alertmessage);
         },
@@ -181,9 +181,9 @@ const Contact = () => {
               </div>
               <div
                 className={
-                  formData.Sent
-                    ? "flex flex-row my-3 justify-center md:text-lg text-sm font-satisfy items-center"
-                    : "d-none"
+                  formData.sent
+                  ? "flex flex-row my-3 justify-center md:text-lg text-sm font-satisfy items-center"
+                    : "hidden d-none"
                 }
               >
                 <span className="capitalize">Thank You for your message</span>
